@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(75, 43, 201), 127);
+    }
+    
+    .container {
+        
+        display: flex;
+        background-color: rgb(201, 190, 190);
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .box{
+        width: 270px;
+        height: 300px;
+        background-color: rgb(12, 12, 12);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 8px;
+    }
+    .left, .right {
+        width: 47%;
+        padding: 10px;
+        background-color: rgb(231, 231, 7)200);
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    label {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+    textarea {
+        width: 97%;
+        min-height: 200px;
+        max-height: 400px;
+        padding: 10px;
+        border: 1px solid #161515;
+        border-radius: 5px;
+        font-size: 16px;
+        resize: vertical;
+        overflow-y: auto;
+    }
+    iframe {
+        width: 100%;
+        min-height: 725px;
+        border: none;
+        background-color: rgb(226, 232, 236);
+    }
